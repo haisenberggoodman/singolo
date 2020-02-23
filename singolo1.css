@@ -1,3 +1,206 @@
-* {
+body {
   margin: 0;
+  height: 100vh;
+  
 }
+
+.header, .services, .main, .slider, {
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.container {
+  width: 1020px;
+  /*margin: 0 auto;
+  */
+}
+.header {
+background: #2d303a;
+height: 89px;
+order:1;
+}
+
+.space1 {
+  display: flex;
+  background: #323746; 
+  color: #323746;
+  font-size: 6px;
+}
+.space2 {
+  display: flex;
+  background: #ea676b; 
+  color: #ea676b;
+  font-size: 6px;
+}
+
+.slider {
+  background: #f06c64;
+}
+
+.services {
+  background: #f2f2f2;
+}
+
+
+/*TOP MENU*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+.top-menu {
+  background: #2d303a;
+  padding: 20px;
+  height: 40px;
+}
+
+
+.top-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-logo {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 40px;
+  font-size: 24px;
+  letter-spacing: 0px;
+
+
+}
+.two {
+  padding-left: 400px;
+  margin-top: -22px;
+}
+
+.two ul {
+  background: #2d303a;
+  overflow: hidden;
+  
+  
+}
+.two li {
+  float: right;
+}
+.two a {
+  display: inline-block;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0px;
+  
+  
+}
+
+ul {
+  list-style: none; 
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 0px;
+  
+}
+
+a:hover {
+  color: #f06c64;
+}
+
+i {
+  margin-right: 10px;
+}
+nav {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.li-home {
+  padding-left: 0px;
+  padding-right:20px;
+
+}
+
+.li-services {
+  
+  padding-left: 0px;
+  padding-right:19px;
+  
+}
+
+.li-portfolio {
+  padding-left: 0px;
+  padding-right:19px;
+}
+
+.li-about {
+  padding-left: 0px;
+  padding-right:19px;
+}
+
+.li-contact {
+  padding-left: 0px;
+  padding-right:24px;
+}
+
+
+
+/*SLIDER*/
+
+.wrapper {
+  background-color: #f06c64;
+  height: 600px;
+}
+
+.iphone1 {
+  padding-left: 110px;
+  padding-right: 0px;
+  margin-top: -17px;
+  margin-bottom: 0px;
+  top: 0px;
+  left: 0px;
+
+
+}
+
+.iphone2 {
+  padding-left: 360px;
+  padding-right: 0px;
+  margin-top: -498px;
+  margin-bottom: 0px;
+  top: 0px;
+  left: 0px;
+}
+
+.left-red {
+  position: relative;
+  width: 16px;
+  height: 27px;
+  padding-left: 360px;
+  padding-right: 0px;
+  margin-top: -498px;
+  margin-bottom: 0px;
+  bottom: 359px;
+  right: 319px;
+}
+.left-red:hover {
+  display: inline;
+  background: url(../singolo/assets/left-black.png);
+}
+
+
+.right-red {
+  position: relative;
+  width: 16px;
+  height: 27px; 
+  padding-left: 360px;
+  padding-right: 0px;
+  margin-top: -498px;
+  margin-bottom: 0px;
+  bottom: 369px;
+  right: -224px;
+}
+
