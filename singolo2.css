@@ -10,6 +10,7 @@
       
         body {
         font-family: 'Lato';
+        margin: 0;
         
       }
           /*PORTFOLIO*//*PORTFOLIO*//*PORTFOLIO*//*PORTFOLIO*/
@@ -163,7 +164,7 @@
         margin-left: 40px;
       }
 
-      .fusce {
+      .fusce2 {
         padding-top:7px;
         padding-left: 41px;
       }

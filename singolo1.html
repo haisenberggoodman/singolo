@@ -7,8 +7,10 @@
     <title>singolo</title>
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="singolo1.css">
     <link rel="stylesheet" href="../styles/normalize.css">
+    <!--CSS-->
+
+    <link rel="stylesheet" href="singolo1.css">
     
 </head>
   <body>
@@ -17,16 +19,14 @@
         <div class="inner">  <!--inner-->
       <div class="navbar-logo"><a href="#"><img src="/assets/logo.png"></div>
       
-      <nav class="two">
-        
-  <ul class="ul-nav">
-      <li class="li-contact"><a href="#"><b>CONTACT</b></a></li>
-      <li class="li-about"><a href="#"><b>ABOUT</b></a></li>
-      <li class="li-portfolio"><a href="#"><b>PORTFOLIO</b></a></li>
-      <li class="li-services"><a href="#"><b>SERVICES</b></a></li>
-      <li class="li-home"><a href="#"><b>HOME</b></a></li>
-  </ul>
-      </nav>
+      <!-- Nav Menu -->
+      <ul class="nav-menu">
+        <li class="first"><a href="#home">home</a></li>
+        <li class="second"><a href="#services">services</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+    </ul><!-- .nav-menu-->
       </div> <!--inner-->
     </header><!--header-->
      
@@ -50,48 +50,58 @@
 <!-- Services
 		============================= -->
     <div id="services">
-        <div class="inner">
+      <div class="inner">
       
-        <h1 class="h1">Our Services</h1>
-          <h2 class="h2">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.&nbsp; Duis&nbsp; mollis,&nbsp; non&nbsp; commodo&nbsp; luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</h2>
-       
-
-	<div class="container2">
-		
-    <div class="cell">
-      <h3><img src="assets/pen.png" class="pen"><div id="custom">Custom Design</div></h3>
-			<p class="curabitur">Curabitur &nbsp; vestibulum &nbsp; eget &nbsp; mauris &nbsp; quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-		</div>
-    
-    <div class="cell"> 
-      <h3><img src="assets/bulb.png" class="bulb"><div id="inovative">Inovative Ideas</div></h3>
-      <p class="quisque">Quisque&nbsp; luctus&nbsp; quam eget&nbsp; molestie com- modo,&nbsp;&nbsp; lacus &nbsp;&nbsp; purus &nbsp;&nbsp; cursus &nbsp;&nbsp; purus,&nbsp;&nbsp; nec rutrum tellus dolor id lorem.</p>
-		</div>
-    
-    <div class="cell">
-      <h3><img src="assets/heart.png" class="heart"><div id="love">Love Is The Answer</div></h3>
-      <p class="nulla">Nulla&nbsp; sed&nbsp; nunc&nbsp; et&nbsp; tortor&nbsp; luctus faucibus. Morbi at aliquet turpis,&nbsp; et consequat felis. Quisque condimentum.</p>
-		</div>
-    
-    <div class="cell">
-      <h3><img src="assets/phone.png" class="phone"><div id="responsive">Responsive Layout</div></h3>
-      <p class="sed">Sed porttitor&nbsp; placerat rhoncus.&nbsp; In at nunc tellus. Maecenas blandit nunc ligula. Prae- sent elit leo.</p>
-		</div>
-    
-    <div class="cell">
-      <h3><img src="assets/bubble.png" class="bubble"><div id="support">24 / 7 Support</span></h3>
-      <p class="vivamus">Vivamus&nbsp; vel&nbsp;&nbsp; quam&nbsp; lacinia,&nbsp;&nbsp; tincidunt&nbsp; dui non, vehicula nisi. Nulla a sem erat. Pellen- tesque egestas venenatis lorem .</p>
-		</div>
-    
-    <div class="cell">
-      <h3><img src="assets/star.png" class="star"><div id="feel">Feel Like A Star</div></h3>
-      <p class="hendrerit">Quisque&nbsp; hendrerit&nbsp; purus dapibus, ornare nibh&nbsp;&nbsp;&nbsp; vitae,&nbsp;&nbsp;&nbsp; viverra &nbsp;&nbsp;&nbsp; nibh.&nbsp&nbsp;&nbsp; Fusce&nbsp; &nbsp;vitae aliquam tellus.</p>
-		</div>
-	</div>
-
-
-
-
+        <h2 class="our">Our Services</h2>
+          <h3 class="fusce">Fusce dapibus,&nbsp; tellus ac cursus&nbsp; commodo, tortor mauris&nbsp; condimentum. Duis mollis, non&nbsp; commodo luctus, &nbsp;nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</h3>
+          
+        <ul>
+            <li>
+                <span class="li_pen"></span>
+                  <h4>Custom Design</h4>
+                  <p>Curabitur&nbsp; vestibulum&nbsp;&nbsp; eget&nbsp; &nbsp;mauris&nbsp;&nbsp; quis&nbsp; laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+              </li>
+              
+              
+              <li>
+                <span class="li_bulb"></span>
+                  <h4>Inovative Ideas</h4>
+                  <p>Quisque luctus,&nbsp; quam&nbsp; eget molestie com-<br>modo,&nbsp;&nbsp; lacus &nbsp;&nbsp;&nbsp;purus &nbsp;&nbsp;&nbsp;cursus&nbsp;&nbsp;&nbsp; purus,&nbsp;&nbsp;&nbsp; nec rutrum tellus dolor id lorem.</p>
+              </li>
+              
+              
+              <li>
+                <span class="li_heart"></span>
+                  <h4 class="heart">Love Is The Answer</h4>
+                  <p>Nulla&nbsp; sed&nbsp; nunc&nbsp; et &nbsp;tortor&nbsp; luctus faucibus. Morbi at&nbsp; aliquet turpis, et consequat felis. Quisque condimentum.</p>
+              </li>
+              
+              
+              <li>
+                <span class="li_phone"></span>
+                  <h4>Responsive Layout</h4>
+                  <p>Sed porttitor placerat &nbsp;rhoncus. In&nbsp; at nunc tellus. Maecenas blandit nunc ligula. Prae-<br>sent elit leo.</p>
+              </li>
+              
+              
+              <li>
+                <span class="li_bubble"></span>
+                  <h4>24 / 7 Support</h4>
+                  <p>Vivamus &nbsp;vel&nbsp;&nbsp; quam&nbsp; lacinia,&nbsp; &nbsp;tincidunt &nbsp;dui non, vehicula nisi. Nulla a sem erat. Pellen-<br>tesque egestas venenatis lorem .</p>
+              </li>
+              
+              
+              <li>
+                <span class="li_star"></span>
+                  <h4 class="star">Feel Like A Star</h4>
+                  <p>Quisque&nbsp; hendrerit&nbsp; purus dapibus, ornare nibh&nbsp;&nbsp;&nbsp; vitae,&nbsp;&nbsp;&nbsp; viverra &nbsp;&nbsp;&nbsp;nibh. &nbsp;&nbsp;&nbsp;&nbsp;Fusce&nbsp;&nbsp; vitae aliquam tellus.</p>
+              </li>
+          </ul>
+          
+      </div><!-- .inner -->
+</div><!-- #services -->
+<!-- End Services -->
+  
   </body>
 </html>
 
