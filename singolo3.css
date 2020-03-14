@@ -10,15 +10,56 @@
     margin: 0;
   }
 
-  /*CONTACT*/ /*CONTACT*/ /*CONTACT*/ /*CONTACT*/ /*CONTACT*/
-   /*CONTACT*/ /*CONTACT*/ /*CONTACT*/ /*CONTACT*/ /*CONTACT*/
+  /*CONTACT*/ 
 
   #contact {
     background: #f06c64;
     overflow: hidden;
     border-bottom: 6px solid #ea676b;
+    min-height: 648px;
     }
   
+    #contact h2 {
+      margin: 68px 0 0 3px;
+      font-size: 30px;
+      line-height: 18px;
+      color: #f0d8d9;
+      font-family: "Lato";
+      font-weight: 900;
+      text-align: left;
+    }
+    #contact h3 {
+      width: 940px;
+      height: 57px;
+      font-size: 18px;
+      line-height: 30px;
+      color: #f0d8d9;
+      font-family: "Lato";
+      font-weight: 300;
+      text-align: left;
+      margin: 27px 0 0 4px;
+    }
+    #contact h4 {
+      font-size: 18px;
+      line-height: 18px;
+      color: #f0d8d9;
+      font-family: "Lato";
+      font-weight: 900;
+      text-align: left;
+      margin: 0 0 0 3px;
+    }
+    #contact p {
+      width: 300px;
+      height: 175px;
+      font-size: 12px;
+      line-height: 22px;
+      color: #f0d8d9;
+      font-family: "Lato";
+      font-weight: 400;
+      text-align: justify;
+      margin: 11px 0px -64px 2px;
+
+    }
   #contact h2,
   #contact h3,
   #contact h4,
@@ -28,8 +69,9 @@
     }
     
   #contact ul {
-    padding: 44px 0 0 0;
+    padding: 46px 0 0 0px;
     overflow: hidden;
+    margin: 0 0 0 0;
     }
     
   #contact ul li {
@@ -56,7 +98,7 @@
     color: #f48c8f;
     font-family: 'Lato', sans-serif;
     padding: 0px 15px;
-    margin: 0 0 16px 0;
+    margin: 0 0 17px 3px;
     outline: none;
     -moz-border-radius: 5px;
       -webkit-border-radius: 5px;
@@ -66,13 +108,13 @@
   
   textarea {
     background: #d6564f;
-    max-width: 590px;
-    width: 590px;
+    max-width: 619px;
+    width: 621px;
     height: 202px;
     max-height: 202px;
     border: 0;
-    padding: 15px;
-    margin: 0 0 16px 0;
+    padding: 0px;
+    margin: 0 0 16px 2px;
     outline: none;
     overflow: auto;
     resize: none;
@@ -112,31 +154,132 @@
     transition-duration: 0.5s;
     }
   
-  #contact p {
-    margin: 0 0 25px 0;
-    text-align: justify;
-    }
+
     
   #contact span {
     display: block;
     font-size: 12px;
-    margin: 0 0 6px 0;
+    margin: 0 0 5px 5px;
     }
   
   #contact span i {
     font-family: 'fontello';
-    margin: 0 10px 0 0;
+    margin: 0 10px 0 11px;
     font-weight: normal;
     font-style: normal;
     vertical-align: middle;
     }
-    
-  #contact span i.icon_location {
-    font-family: 'linecons';
-    }
   
+    
+
+  .li-location {
+    background: url("assets/contacts/li-location.png") no-repeat;
+  }
+  .icon-phone {
+    background: url("assets/contacts/phone.png")no-repeat;
+  }
+  .icon-mail {
+    background: url("assets/contacts/mail.png")no-repeat;
+
+  }
+
+  .li-location:hover {
+    background: url("assets/contacts/location\ black.png") no-repeat;
+  }
+  .icon-phone:hover {
+    background: url("assets/contacts/phone\ \(1\).png")no-repeat;
+  }
+  .icon-mail:hover {
+    background: url("assets/contacts/mail\ \(3\).png")no-repeat;
+
+  }
  
-  .icon-location {
-    background: url(/assets/contacts/location\ black.png;);
+#footer {
+	background: #2d303a;
+  overflow: hidden;
+  max-height: 80px;
+	}
+
+#footer .inner {
+	padding-top: 22px;
+  padding-bottom: 22px;
+  text-decoration: none;
+	}
+	
+#footer p {
+  color: #666d89;
+  font-size: 12px;
+  margin: 8px 0 0 5px;
+  display: inline-block
+	}	
+	
+
+#footer ul {
+  float: right;
+  text-decoration: none;
+  margin: 0 70px 0 0;
+  list-style-type: none;
+	}	
+	
+#footer ul li span {
+	font-family: "fontello";
+	float: left;
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	line-height: 30px;
+	margin: 0px 6px 0 0;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
   }
   
+  
+  .icon-facebook {
+    background: url("/assets/profile/icon-facebook.png") no-repeat; 
+    height: 35px; 
+    width: 34px; 
+   
+    
+  }
+  .icon-gplus {
+    background: url("/assets/profile/icon-gplus.png") no-repeat; 
+    height: 35px; 
+    width: 34px; 
+  }
+  
+  .icon-twitter {
+    background: url("/assets/profile/icon-twitter.png") no-repeat; 
+    height: 35px;
+    width: 34px; 
+  }
+    
+  .icon-linkedin {
+    background: url("/assets/profile/icon-linkedin.png") no-repeat; 
+    height: 35px; 
+    width: 34px; 
+    
+  }
+  
+    
+  .icon-facebook:hover {
+    background: url("/assets/profile/facebook.png") no-repeat; /* новое изображение */
+    height: 35px; /* высота изображения */
+    width: 34px; /* ширина изображения */
+  }
+  .icon-gplus:hover {
+    background: url("/assets/profile/gplus.png") no-repeat; /* новое изображение */
+    height: 35px; /* высота изображения */
+    width: 34px; /* ширина изображения */
+  }
+  .icon-twitter:hover {
+    background: url("/assets/profile/twitter.png") no-repeat; /* новое изображение */
+    height: 35px; /* высота изображения */
+    width: 34px; /* ширина изображения */
+  }
+  .icon-linkedin:hover {
+    background: url("/assets/profile/linkedin.png") no-repeat; 
+    width: 34px; 
+  }

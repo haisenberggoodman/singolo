@@ -1,0 +1,824 @@
+
+
+    .inner {
+        margin: 0 auto;
+        max-width: 1020px;
+        min-height: 75px;
+        overflow: hidden;
+        
+        }
+      body {
+        font-family: 'Lato';
+        margin: 0;
+        
+      }
+  
+  .header {
+  background: #2d303a;
+  min-height: 89px;
+  border-bottom: 6px solid #323746;
+  
+  }
+  
+  /*TOP MENU*//*TOP MENU*//*TOP MENU*//*TOP MENU*/
+  /*TOP MENU*//*TOP MENU*//*TOP MENU*//*TOP MENU*/
+  /*TOP MENU*//*TOP MENU*//*TOP MENU*//*TOP MENU*/
+  
+  .top-menu {
+    background: #2d303a;
+    padding: 20px;
+    min-height: 40px;
+  }
+  
+  
+  .navbar-logo {
+    display: inline-block;
+    padding-top: 34px;
+    padding-left: 40px;
+  }
+  
+  
+  
+  /*Nav Menu*/
+  .nav-menu {
+    float: right;
+  }
+  ul.nav-menu {
+    padding: 26px 25px 0px 0px;
+    display: inline-block;
+      }
+  
+  ul.nav-menu li {
+      float: left;
+      font-size: 12px;
+      font-weight: 700;
+      color: #494e62;
+    text-transform: uppercase;
+    text-decoration: none;
+      }
+  
+  ul.nav-menu li a {
+      color: #ffffff;
+      display: inline-block;
+      margin: 0 15px 0 13px;
+    }
+  
+    ul.nav-menu li a:hover {
+      color: #f06c64;
+    }
+  
+   .first {
+      padding: 0px 2px 0px 0px;
+    }
+    .second {
+      padding: 0px 1px 0px 0px;
+    }
+   
+  header a {
+    text-decoration: none;
+    font-family: 'Lato' sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: 0px;
+    line-height: 6px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
+  /*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*/
+  /*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*/
+  /*SLIDER*//*SLIDER*//*SLIDER*//*SLIDER*/
+  
+  .slider {
+    background-color: #f06c64;
+    min-height: 594px;
+    border-bottom: 6px solid #ea676b;
+  }
+  
+  .slider .inner {
+    min-height: 550px;
+  }
+  
+  .iphone1 {
+    position: relative;
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    top:49px;
+    left:91px;
+    
+  
+  }
+  
+  .iphone2 {
+    position: relative;
+    display: inline-block;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top:-74px;
+    left:150px;
+  }
+  
+  .left-red {
+   position: relative;
+   display: inline-block;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top:-182px;
+    left:42px;
+  }
+  
+  .right-red {
+    position: relative;
+    display: inline-block;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    top:-91px;
+    left:99px;
+  }
+  
+  
+  /* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES */
+  /* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES */
+  /* SERVICES *//* SERVICES *//* SERVICES *//* SERVICES */
+  
+  #services {
+      background: #f2f2f2;
+    overflow: hidden;
+      border-bottom: 6px solid #ffffff;
+      }
+      
+  #services .inner {
+    padding-bottom: 31px;
+      }
+      
+  #services ul {
+      padding: 24px 0px 0 50px;
+      }
+  
+  #services ul li {
+      float: left;
+      padding: 0 29px 16px 0;
+    max-width: 290px;
+    max-height: 107px;
+    margin: 0 0 0px 0;
+    list-style-type: none;
+      }
+  
+  #services ul li span {
+      float: left;
+      width: 56px;
+      height: 56px;
+      line-height: 56px;
+      text-align: center;
+      font-size: 35px;
+      color: #666d89;
+      background: transparent;
+      margin: 5px 10px 0 -10px;
+    }
+    
+    #services ul li h4 {
+        float: left;
+        width: 211px;
+        color: #666d89;
+        padding: 4px 8px 10px 15px;
+        font-size: 18px;
+        line-height: 18px;
+        color: #666d89;
+        font-family: "Lato";
+        font-weight: 900;
+        text-align: left;
+        margin: 0;
+      }
+    
+    #services ul li p {
+        float: right;
+        width: 220px;
+        text-align: justify;
+        color: #666d89;
+        padding: 0 0 0 0;
+        width: 219px;
+        height: 128px;
+        font-size: 12px;
+        line-height: 22px;
+        color: #767e9e;
+        font-family: "Lato";
+        font-weight: 400;
+        text-align: left;
+        margin: 0;
+      }
+      .our {
+        font-size: 30px;
+        line-height: 18px;
+        color: #666d89;
+        font-family: "Lato";
+        font-weight: 900;
+        text-align: left;
+        padding: 68px 0 0 40px;
+        margin: 0 0 0 0;
+    
+      }
+  
+      .fusce {
+        font-size: 18px;
+        line-height: 30px;
+        color: #767e9e;
+        font-family: "Lato";
+        font-weight: 300;
+        text-align: left;
+        padding: 28px 0 0 40px;
+        margin: 0 0 0 0;
+      }
+  
+      .heart, .star {
+        padding: 0 0 0 0;
+      }
+      
+  
+      .li_heart:before {
+        content: url(/assets/heart.png);
+        }
+      
+      .li_star:before {
+        content: url(/assets/star.png);
+        }
+      
+      .li_bulb:before {
+        content: url(/assets/bulb.png);
+        }
+      
+      .li_pen:before {
+        content: url(/assets/pen.png);
+        }
+      
+      .li_bubble:before {
+        content: url(/assets/bubble.png);
+        }
+      
+      .li_phone:before {
+        content: url(/assets/phone.png);
+        }
+
+        
+
+
+    .inner {
+        margin: 0 auto;
+        max-width: 1020px;
+        min-height: 75px;
+        overflow: hidden;
+        }
+      
+        body {
+        font-family: 'Lato';
+        margin: 0;
+        
+      }
+          /*PORTFOLIO*//*PORTFOLIO*//*PORTFOLIO*//*PORTFOLIO*/
+    /*PORTFOLIO*//*PORTFOLIO*//*PORTFOLIO*//*PORTFOLIO*/
+    /*PORTFOLIO*//*PORTFOLIO*//*PORTFOLIO*//*PORTFOLIO*/
+
+
+      #portfolio {
+        background-color: #2d303a;
+        overflow: hidden;
+        border-bottom: 6px solid #323746;
+        min-height: 864px;
+      }
+    
+      #portfolio .inner {
+          background: #2d303a ;
+          
+      }
+/*MENU*/
+    h1 {
+        font-size: 30px !important;
+        line-height: 18px;
+        color: #666d89;
+        font-family: "Lato" ;
+        font-weight: 900;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 30px;
+        color: #767e9e;
+        font-family: "Lato";
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .portitle {
+        margin-top: 68px;
+        margin-left: 40px;
+        background-color: /* #2d303a*/
+        
+      }
+
+      .duis {
+        padding-top: 8px;
+        margin: 0 0 0 40px;
+        background-color: #2d303a;
+        
+      }
+
+      
+        .ul 
+      {
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .portfolio-menu {
+        margin: 11px 0;
+        padding: 0 42px;
+        list-style-type: none;
+        font-family: 'Lato';
+      }
+      .portfolio-menu li {
+          display: inline-block;
+      } 
+
+      .portfolio-menu li a {
+        font-size: 12px;
+        line-height: 22px;
+        color: #767e9e;
+        font-family: "Lato", ;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 1px solid #666d89;
+        padding: 2px 6px 3px 6px;
+        
+      }
+
+      .currentall, .webdesign, .graphicdesign, .artwork {
+        padding-right: 7px;
+        
+      }
+
+      .portfolio-menu li a:hover {
+          color: #c5c5c5;
+          border: 1px solid #c5c5c5;
+          background-color: black;
+      }
+
+      /*PORTFOLIO*/
+
+      #portfolio ul.portfolio {
+        width: 100%;
+        padding: 19px 0 0 0;
+        }
+    
+    #portfolio ul.portfolio li {
+        float: left;
+        display: inline;
+        margin: -16px -20px 33px 40px;
+        }
+    
+    #portfolio ul.portfolio li a {
+        height: 100%;
+        display: block;
+        }
+    
+    #portfolio ul.portfolio li a:hover {
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+        -o-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        }
+    
+      /*========================================================================*/
+
+      /*ABOUT US*/
+      h4 {
+        font-size: 18px;
+        line-height: 18px;
+        color: #666d89;
+        font-family: "Lato";
+        font-weight: 900;
+        text-align: left;
+      }
+      
+      #about {
+          background-color: #f2f2f2;
+          border-bottom: 6px solid #ffffff;
+          overflow: hidden;
+          min-height: 728px;
+          
+      }
+      #about h4 {
+          padding: 17px 0px 0px 0px;
+      }
+      #name {
+          margin-top: 0px;
+          margin-bottom: 0px;
+      }
+
+      .aboutus {
+        margin-top: 68px;
+        margin-left: 40px;
+      }
+
+      .fusce2 {
+        padding-top:7px;
+        padding-left: 41px;
+      }
+
+      #about p {
+        width: 307px;
+        height: 120px;
+        font-size: 12px;
+        line-height: 22px;
+        color: #767e9e;
+        font-family: "Lato";
+        font-weight: 400;
+        text-align: left;
+      }
+        
+    #about ul {
+        padding: 29px 0px 0px 20px;
+        width: 100%;
+        }
+    
+    #about ul li {
+        width: 300px;
+        float: left;
+        display: inline;
+        margin: 0 0 0 20px;
+        }
+    
+    
+    #about ul li img,
+    #about ul li h4,
+    #about ul li p {
+        display: block;
+        }
+    #about ul li a {
+        display: block;
+        height: 100%;
+        }
+
+
+    .description {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+        
+    .icon-facebook, .icon-gplus, .icon-twitter, .icon-linkedin {
+        float: left;
+    }
+
+    .icon-facebook {
+        background: url("/assets/profile/icon-facebook.png") no-repeat; 
+        height: 35px; 
+        width: 34px; 
+        padding:0px 0px 0px 0px;
+        margin:-55px 0px 0px 0px;
+        
+      }
+      .icon-gplus {
+        background: url("/assets/profile/icon-gplus.png") no-repeat; 
+        height: 35px; 
+        width: 34px; 
+        padding:0px 0px 0px 0px;
+        margin:-55px 0px 0px 40px;
+      }
+      .icon-twitter {
+        background: url("/assets/profile/icon-twitter.png") no-repeat; 
+        height: 35px;
+        width: 34px; 
+        padding:0px 0px 0px 0px;
+        margin:-55px 0px 0px 79px;
+      }
+      .icon-linkedin {
+        background: url("/assets/profile/icon-linkedin.png") no-repeat; 
+        height: 35px; 
+        width: 34px; 
+        padding:0px 0px 0px 0px;
+        margin:-55px 0px 0px 119px;
+      }
+      
+        
+      .icon-facebook:hover {
+        background: url("/assets/profile/facebook.png") no-repeat; /* новое изображение */
+        height: 35px; /* высота изображения */
+        width: 34px; /* ширина изображения */
+      }
+      .icon-gplus:hover {
+        background: url("/assets/profile/gplus.png") no-repeat; /* новое изображение */
+        height: 35px; /* высота изображения */
+        width: 34px; /* ширина изображения */
+      }
+      .icon-twitter:hover {
+        background: url("/assets/profile/twitter.png") no-repeat; /* новое изображение */
+        height: 35px; /* высота изображения */
+        width: 34px; /* ширина изображения */
+      }
+      .icon-linkedin:hover {
+        background: url("/assets/profile/linkedin.png") no-repeat; /* новое изображение */
+        height: 35px; /* высота изображения */
+        width: 34px; /* ширина изображения */
+      }
+
+      .inner {
+        margin: 0 auto;
+        max-width: 1020px;
+        min-height: 75px;
+        overflow: hidden;
+        }
+      
+        body {
+        font-family: 'Lato';
+        margin: 0;
+      }
+    
+      /*CONTACT*/ 
+    
+      #contact {
+        background: #f06c64;
+        overflow: hidden;
+        border-bottom: 6px solid #ea676b;
+        min-height: 648px;
+        text-decoration: none;
+        }
+      
+        #contact h2 {
+          margin: 68px 0 0 3px;
+          font-size: 30px;
+          line-height: 18px;
+          color: #f0d8d9;
+          font-family: "Lato";
+          font-weight: 900;
+          text-align: left;
+          text-decoration: none;
+        }
+        #contact h3 {
+          width: 940px;
+          height: 57px;
+          font-size: 18px;
+          line-height: 30px;
+          color: #f0d8d9;
+          font-family: "Lato";
+          font-weight: 300;
+          text-align: left;
+          margin: 27px 0 0 4px;
+        }
+        #contact h4 {
+          font-size: 18px;
+          line-height: 18px;
+          color: #f0d8d9;
+          font-family: "Lato";
+          font-weight: 900;
+          text-align: left;
+          margin: 0 0 0 3px;
+        }
+        #contact p {
+          width: 300px;
+          height: 175px;
+          font-size: 12px;
+          line-height: 22px;
+          color: #f0d8d9;
+          font-family: "Lato";
+          font-weight: 400;
+          text-align: justify;
+          margin: 11px 0px -64px 2px;
+    
+        }
+      #contact h2,
+      #contact h3,
+      #contact h4,
+      #contact p,
+      #contact span {
+        color: #f0d8d9;
+        }
+        
+      #contact ul {
+        padding: 46px 0 0 0px;
+        overflow: hidden;
+        margin: 0 0 0 0;
+        }
+        
+      #contact ul li {
+        float: left;
+        display: inline;
+        max-width: 300px;
+        padding: 0 0 0 10px;
+        }
+      
+      #contact ul li:first-child {
+        padding: 0 10px 0 0;
+         max-width: 620px;
+        }
+        
+      
+      input {
+        background: #d6564f;
+         max-width: 590px;
+         width: 590px;
+        height: 38px;
+        line-height: 38px;
+        border: 0;
+        font-size: 12px;
+        color: #f48c8f;
+        font-family: 'Lato', sans-serif;
+        padding: 0px 15px;
+        margin: 0 0 17px 3px;
+        outline: none;
+        -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -khtml-border-radius: 5px;
+        border-radius: 5px;
+        }
+      
+      textarea {
+        background: #d6564f;
+        max-width: 619px;
+        width: 621px;
+        height: 202px;
+        max-height: 202px;
+        border: 0;
+        padding: 0px;
+        margin: 0 0 16px 2px;
+        outline: none;
+        overflow: auto;
+        resize: none;
+        font-size: 12px;
+        color: #f48c8f;
+        font-family: 'Lato', sans-serif;
+        -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -khtml-border-radius: 5px;
+        border-radius: 5px;
+        }
+      
+      .submitbtn {
+        padding: 0;
+        margin: 0;
+        background: #d6564f;
+        overflow: hidden;
+        width: 110px;
+        height: 38px;
+        line-height: 38px;
+        cursor: pointer;
+        outline: none;
+        text-align: center;
+        font-size: 14px;
+        color: #f48c8f;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        }
+      
+      .submitbtn:hover {
+        background: #2d303a;
+        color: #666d89;
+        -o-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        }
+      
+    
+        
+      #contact span {
+        display: block;
+        font-size: 12px;
+        margin: 0 0 5px 5px;
+        }
+      
+      #contact span i {
+        font-family: 'fontello';
+        margin: 0 10px 0 11px;
+        font-weight: normal;
+        font-style: normal;
+        vertical-align: middle;
+        padding: 0 0 0 0;
+        }
+      
+        
+    
+      .li-location {
+        background: url("assets/contacts/li-location.png") no-repeat;
+      }
+      .icon-phone {
+        background: url("assets/contacts/phone.png")no-repeat;
+      }
+      .icon-mail {
+        background: url("assets/contacts/mail.png")no-repeat;
+        
+    
+      }
+    
+      .li-location:hover {
+        background: url("assets/contacts/location\ black.png") no-repeat;
+      }
+      .icon-phone:hover {
+        background: url("assets/contacts/phone\ \(1\).png")no-repeat;
+      }
+      .icon-mail:hover {
+        background: url("assets/contacts/mail\ \(3\).png")no-repeat;
+    
+      }
+     
+    #footer {
+        background: #2d303a;
+      overflow: hidden;
+      max-height: 80px;
+        }
+    
+    #footer .inner {
+        padding-top: 22px;
+      padding-bottom: 22px;
+      text-decoration: none;
+        }
+        
+    #footer p {
+      color: #666d89;
+      font-size: 12px;
+      margin: 8px 0 0 5px;
+      display: inline-block
+        }	
+        
+    
+    #footer ul {
+      float: right;
+      text-decoration: none;
+      margin: 0 70px 0 0;
+      list-style-type: none;
+        }	
+        
+    #footer ul li span {
+        font-family: "fontello";
+        float: left;
+        display: inline-block;
+        width: 34px;
+        height: 34px;
+        line-height: 30px;
+        margin: 0px 6px 0 0;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        list-style-type: none;
+      }
+      
+      
+      .icon-face {
+        background: url("/assets/profile/icon-facebook.png") no-repeat; 
+        height: 35px; 
+        width: 34px; 
+       
+        
+      }
+      .icon-gplu {
+        background: url("/assets/profile/icon-gplus.png") no-repeat; 
+        height: 35px; 
+        width: 34px; 
+      }
+      
+      .icon-twitte {
+        background: url("/assets/profile/icon-twitter.png") no-repeat; 
+        height: 35px;
+        width: 34px; 
+      }
+        
+      .icon-linkedi {
+        background: url("/assets/profile/icon-linkedin.png") no-repeat; 
+        height: 35px; 
+        width: 34px; 
+        
+      }
+      
+        
+      .icon-face:hover {
+        background: url("/assets/profile/facebook.png") no-repeat; /* новое изображение */
+        height: 35px; /* высота изображения */
+        width: 34px; /* ширина изображения */
+      }
+      .icon-gplu:hover {
+        background: url("/assets/profile/gplus.png") no-repeat; /* новое изображение */
+        height: 35px; /* высота изображения */
+        width: 34px; /* ширина изображения */
+      }
+      .icon-twitte:hover {
+        background: url("/assets/profile/twitter.png") no-repeat; /* новое изображение */
+        height: 35px; /* высота изображения */
+        width: 34px; /* ширина изображения */
+      }
+      .icon-linkedi:hover {
+        background: url("/assets/profile/linkedin.png") no-repeat; 
+        width: 34px; 
+      }
