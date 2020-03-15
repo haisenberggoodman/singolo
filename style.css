@@ -243,27 +243,27 @@
       
   
       .li_heart:before {
-        content: url(/assets/heart.png);
+        content: url(assets/heart.png);
         }
       
       .li_star:before {
-        content: url(/assets/star.png);
+        content: url(assets/star.png);
         }
       
       .li_bulb:before {
-        content: url(/assets/bulb.png);
+        content: url(assets/bulb.png);
         }
       
       .li_pen:before {
-        content: url(/assets/pen.png);
+        content: url(assets/pen.png);
         }
       
       .li_bubble:before {
-        content: url(/assets/bubble.png);
+        content: url(assets/bubble.png);
         }
       
       .li_phone:before {
-        content: url(/assets/phone.png);
+        content: url(assets/phone.png);
         }
 
         
@@ -482,7 +482,7 @@
     }
 
     .icon-facebook {
-        background: url("/assets/profile/icon-facebook.png") no-repeat; 
+        background: url("assets/profile/icon-facebook.png") no-repeat; 
         height: 35px; 
         width: 34px; 
         padding:0px 0px 0px 0px;
@@ -490,21 +490,21 @@
         
       }
       .icon-gplus {
-        background: url("/assets/profile/icon-gplus.png") no-repeat; 
+        background: url("assets/profile/icon-gplus.png") no-repeat; 
         height: 35px; 
         width: 34px; 
         padding:0px 0px 0px 0px;
         margin:-55px 0px 0px 40px;
       }
       .icon-twitter {
-        background: url("/assets/profile/icon-twitter.png") no-repeat; 
+        background: url("assets/profile/icon-twitter.png") no-repeat; 
         height: 35px;
         width: 34px; 
         padding:0px 0px 0px 0px;
         margin:-55px 0px 0px 79px;
       }
       .icon-linkedin {
-        background: url("/assets/profile/icon-linkedin.png") no-repeat; 
+        background: url("assets/profile/icon-linkedin.png") no-repeat; 
         height: 35px; 
         width: 34px; 
         padding:0px 0px 0px 0px;
@@ -513,22 +513,22 @@
       
         
       .icon-facebook:hover {
-        background: url("/assets/profile/facebook.png") no-repeat; /* новое изображение */
+        background: url("assets/profile/facebook.png") no-repeat; /* новое изображение */
         height: 35px; /* высота изображения */
         width: 34px; /* ширина изображения */
       }
       .icon-gplus:hover {
-        background: url("/assets/profile/gplus.png") no-repeat; /* новое изображение */
+        background: url("assets/profile/gplus.png") no-repeat; /* новое изображение */
         height: 35px; /* высота изображения */
         width: 34px; /* ширина изображения */
       }
       .icon-twitter:hover {
-        background: url("/assets/profile/twitter.png") no-repeat; /* новое изображение */
+        background: url("assets/profile/twitter.png") no-repeat; /* новое изображение */
         height: 35px; /* высота изображения */
         width: 34px; /* ширина изображения */
       }
       .icon-linkedin:hover {
-        background: url("/assets/profile/linkedin.png") no-repeat; /* новое изображение */
+        background: url("assets/profile/linkedin.png") no-repeat; /* новое изображение */
         height: 35px; /* высота изображения */
         width: 34px; /* ширина изображения */
       }
@@ -777,26 +777,26 @@
       
       
       .icon-face {
-        background: url("/assets/profile/icon-facebook.png") no-repeat; 
+        background: url("assets/profile/icon-facebook.png") no-repeat; 
         height: 35px; 
         width: 34px; 
        
         
       }
       .icon-gplu {
-        background: url("/assets/profile/icon-gplus.png") no-repeat; 
+        background: url("assets/profile/icon-gplus.png") no-repeat; 
         height: 35px; 
         width: 34px; 
       }
       
       .icon-twitte {
-        background: url("/assets/profile/icon-twitter.png") no-repeat; 
+        background: url("assets/profile/icon-twitter.png") no-repeat; 
         height: 35px;
         width: 34px; 
       }
         
       .icon-linkedi {
-        background: url("/assets/profile/icon-linkedin.png") no-repeat; 
+        background: url("assets/profile/icon-linkedin.png") no-repeat; 
         height: 35px; 
         width: 34px; 
         
@@ -804,21 +804,21 @@
       
         
       .icon-face:hover {
-        background: url("/assets/profile/facebook.png") no-repeat; /* новое изображение */
+        background: url("assets/profile/facebook.png") no-repeat; /* новое изображение */
         height: 35px; /* высота изображения */
         width: 34px; /* ширина изображения */
       }
       .icon-gplu:hover {
-        background: url("/assets/profile/gplus.png") no-repeat; /* новое изображение */
+        background: url("assets/profile/gplus.png") no-repeat; /* новое изображение */
         height: 35px; /* высота изображения */
         width: 34px; /* ширина изображения */
       }
       .icon-twitte:hover {
-        background: url("/assets/profile/twitter.png") no-repeat; /* новое изображение */
+        background: url("assets/profile/twitter.png") no-repeat; /* новое изображение */
         height: 35px; /* высота изображения */
         width: 34px; /* ширина изображения */
       }
       .icon-linkedi:hover {
-        background: url("/assets/profile/linkedin.png") no-repeat; 
+        background: url("assets/profile/linkedin.png") no-repeat; 
         width: 34px; 
       }
